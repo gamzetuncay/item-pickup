@@ -14,7 +14,7 @@ const health = new SpawnItem(
     position: new Vector3(4, 0.75, 6),
   }),
   new AudioClip("sounds/medikitPickup.mp3"),
-  3000 // In millisecond - 3 second spawn time
+  3000 // In milliseconds - 3 second spawn time
 )
 
 const ammo = new SpawnItem(
