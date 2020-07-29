@@ -4,7 +4,6 @@ import { SpawnBase } from "./spawnBase"
 // Base scene
 const base = new Entity()
 base.addComponent(new GLTFShape("models/baseLight.glb"))
-base.addComponent(new Transform())
 engine.addEntity(base)
 
 // Items

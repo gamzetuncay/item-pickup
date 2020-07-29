@@ -3,7 +3,6 @@ _demo of item-pickup scene running in preview._
 
 ![demo](https://github.com/decentraland-scenes/item-pickup/blob/master/screenshots/item-pickup.gif)
 
-
 ## Description
 Example of item pickup game mechanic where each item has a different respawn time. You can also stand at a respawn spot and continually pickup the item as soon as it spawns. To view the scene, please visit [here](https://item-pickup.vercel.app/).
 
