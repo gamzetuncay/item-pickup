@@ -4,19 +4,22 @@ _demo of item-pickup scene running in preview._
 ![demo](https://github.com/decentraland-scenes/item-pickup/blob/master/screenshots/item-pickup.gif)
 
 ## Description
-Example of item pickup game mechanic where each item has a different respawn time. You can also stand at a respawn spot and continually pickup the item as soon as it spawns. To view the scene, please visit [here](https://item-pickup.vercel.app/).
+Run over or stand over an item to pick it up. Each item has a different spawn time. To view the scene, please visit [here](https://item-pickup.vercel.app/).
+
+## Instructions
+Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. To jump, press the <kbd>Space</kbd> key.
 
 ## Running the scene
 After you clone the project, run the following:
 
 ```
-npm install
+$ npm i -g decentraland
 ```
 
 Followed by:
 
 ```
-dcl start
+$ dcl start
 ```
 ## Acknowledgements
 The following files were taken from https://freesound.org/:
