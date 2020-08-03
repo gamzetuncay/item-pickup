@@ -4,10 +4,10 @@ _demo of item-pickup scene running in preview._
 ![demo](https://github.com/decentraland-scenes/item-pickup/blob/master/screenshots/item-pickup.gif)
 
 ## Description
-Run over or stand over an item to pick it up. Each item has a different spawn time. To view the scene, please visit [here](https://item-pickup.vercel.app/).
+Item pickup mechanic where each item has a different spawn time. To view the scene, please visit [here](https://item-pickup.vercel.app/).
 
 ## Instructions
-Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. To jump, press the <kbd>Space</kbd> key.
+Run over or stand over an item to pick it up. Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. To jump, press the <kbd>Space</kbd> key.
 
 ## Running the scene
 After you clone the project, run the following:
