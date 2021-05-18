@@ -16,7 +16,7 @@ export class SpawnItem extends Entity {
 
     this.soundEntity.addComponent(new AudioSource(sound))
     this.soundEntity.addComponent(new Transform())
-    this.soundEntity.getComponent(Transform).position = Camera.instance.position
+    this.soundEntity.setParent(Attachable.AVATAR)
     engine.addEntity(this.soundEntity)
 
     /**
@@ -37,9 +37,8 @@ export class SpawnItem extends Entity {
             this.addComponent(
               new utils.Delay(respawnTime, () => {
                 this.getComponent(Transform).scale.setAll(1)
-                this.getComponent(
-                  utils.TriggerComponent
-                ).shape.position.y = origTriggerPosY // Revert trigger position back to its original position
+                this.getComponent(utils.TriggerComponent).shape.position.y =
+                  origTriggerPosY // Revert trigger position back to its original position
               })
             )
           },
