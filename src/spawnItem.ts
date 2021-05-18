@@ -16,8 +16,9 @@ export class SpawnItem extends Entity {
 
     this.soundEntity.addComponent(new AudioSource(sound))
     this.soundEntity.addComponent(new Transform())
-    this.soundEntity.setParent(Attachable.AVATAR)
     engine.addEntity(this.soundEntity)
+    this.soundEntity.setParent(Attachable.AVATAR)
+
 
     /**
      * This trigger allows the player to stand on the same spot and continually
