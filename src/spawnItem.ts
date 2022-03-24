@@ -30,7 +30,7 @@ export class SpawnItem extends Entity {
           onCameraEnter: () => {
             this.soundEntity.getComponent(AudioSource).playOnce()
             this.getComponent(Transform).scale.setAll(0)
-            let origTriggerPosY = this.getComponent(utils.TriggerComponent)
+            const origTriggerPosY = this.getComponent(utils.TriggerComponent)
               .shape.position.y
             this.getComponent(utils.TriggerComponent).shape.position.y = -100 // Move the trigger so that the player exits and re-enters the trigger
 
@@ -41,7 +41,7 @@ export class SpawnItem extends Entity {
                   origTriggerPosY // Revert trigger position back to its original position
               })
             )
-          },
+          }
         }
       )
     )
